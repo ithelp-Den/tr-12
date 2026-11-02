@@ -1,0 +1,23 @@
+/* Anton Regular */
+@font-face {
+  font-family: 'Anton';
+  src: url('../fonts/Anton-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Lifehack Basic (DearType) — комерційний шрифт. Покладіть файл у fonts/LifehackBasic.woff2 */
+@font-face {
+  font-family: 'Lifehack Basic';
+  src: local('Lifehack Basic'), local('LifehackBasic-Regular'), url('../fonts/LifehackBasic.woff2') format('woff2');
+  font-display: swap;
+}
+
+/* Фолбек, поки немає Lifehack Basic: Chewy, підігнаний по ширині (як у сука 52) */
+@font-face {
+  font-family: 'Lifehack Fallback';
+  src: url('../fonts/Chewy-Regular.woff2') format('woff2');
+  size-adjust: 90%;
+  font-display: swap;
+}

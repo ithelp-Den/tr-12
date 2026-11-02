@@ -4200,13 +4200,6 @@ img {
   width: 9.09rem;
   height: 16.45rem;
 }
-.group__frame-2072750824 {
-  position: absolute;
-  left: 5.65rem;
-  top: 7.56rem;
-  width: 7.16rem;
-  height: 3.89rem;
-}
 .group__mask-8 {
   position: absolute;
   left: 4.35rem;
@@ -4215,6 +4208,13 @@ img {
   height: 14.77rem;
   -webkit-mask-image: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 60.22%, rgba(115, 115, 115, 0.0) 100%);
   mask-image: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 60.22%, rgba(115, 115, 115, 0.0) 100%);
+}
+.group__frame-2072750824 {
+  position: absolute;
+  left: 10rem;
+  top: 6.13rem;
+  width: 7.16rem;
+  height: 3.89rem;
 }
 .group__icons-4 {
   position: absolute;
